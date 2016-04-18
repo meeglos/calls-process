@@ -5,7 +5,6 @@ namespace Calls\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Calls\Http\Requests;
-use Calls\Http\Controllers\Controller;
 
 class TestController extends Controller
 {
