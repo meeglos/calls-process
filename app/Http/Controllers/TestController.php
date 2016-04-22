@@ -36,6 +36,14 @@ class TestController extends Controller
                 'color' => 'success'
             ]
         ];
+        $data['issues'] = [
+            [
+                'issue'    =>  'Design New Dashboard',
+                'year' => '87',
+                'status' => 'danger'
+            ]
+        ];
+
         return view('test')->with($data);
 
     }
