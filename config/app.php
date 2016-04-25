@@ -1,5 +1,7 @@
 <?php
 
+use Calls\Providers\HtmlServiceProvider;
+
 return [
 
     /*
@@ -151,7 +153,8 @@ return [
         /**
          * Vendor Service Providers...
          */
-        Collective\Html\HtmlServiceProvider::class,
+
+
         /*
          * Application Service Providers...
          */
@@ -159,6 +162,7 @@ return [
         Calls\Providers\AuthServiceProvider::class,
         Calls\Providers\EventServiceProvider::class,
         Calls\Providers\RouteServiceProvider::class,
+        Calls\Providers\HtmlServiceProvider::class,
 
     ],
 

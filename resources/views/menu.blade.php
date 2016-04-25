@@ -2,7 +2,7 @@
 <ul class="sidebar-menu">
     <li class="header">MENU</li>
     <!-- Optionally, you can add icons to the links -->
-    <li class="active"><a href="{{ route('') }}"><i class="fa fa-link"></i> <span>Registrar datos</span></a></li>
+    <li class="active"><a href="{{ route('/') }}"><i class="fa fa-link"></i> <span>Registrar datos</span></a></li>
     <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
     <li class="treeview">
         <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span> <i class="fa fa-angle-left pull-right"></i></a>

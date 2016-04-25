@@ -10,12 +10,12 @@ namespace Calls\Components;
 
 use Collective\Html\HtmlBuilder as CollectiveHtmlBuilder;
 
-class HtmlBuilder extends  CollectiveHtmlBuilder
+class HtmlBuilder extends CollectiveHtmlBuilder
 {
 
     public function menu()
     {
-        return view('partials/menu');
+        return view('menu');
     }
 
 }
