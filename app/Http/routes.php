@@ -16,6 +16,11 @@ Route::get('/', [
     'uses'  =>  'TestController@index'
 ]);
 
+Route::get('/latest', [
+    'as'    =>  'calls.latest',
+    'uses'  =>  'CallsController@latest'
+]);
+
 Route::get('/shortest', [
     'as'    =>  'calls.shortest',
     'uses'  =>  'CallsController@shortest'
