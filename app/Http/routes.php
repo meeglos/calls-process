@@ -11,16 +11,41 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+    'as'    =>  'calls.latest',
+    'uses'  =>  'TestController@index'
+]);
 
-Route::get('bootstrap', function () {
-    return view('bootstrap');
-});
+Route::get('/shortest', [
+    'as'    =>  'calls.shortest',
+    'uses'  =>  'CallsController@shortest'
+]);
 
-Route::get('admin', function () {
-    return view('admin_template');
-});
+Route::get('/longest', [
+    'as'    =>  'calls.longest',
+    'uses'  =>  'CallsController@longest'
+]);
 
-Route::get('test', 'TestController@index');
+Route::get('/details/{id}', [
+    'as'    =>  'calls.details',
+    'uses'  =>  'CallsController@details'
+]);
+
+Route::get('/insert', [
+    'as'    =>  'calls.insert',
+    'uses'  =>  'CallsController@insert'
+]);
+
+
+
+
+//Route::controllers([
+//    'auth'  =>  'Auth\Controller',
+//    'password'  =>  'Auth\PasswordController',
+//]);
+
+//Route::get('admin', function () {
+//    return view('admin_template');
+//});
+//
+//Route::get('/test', 'TestController@index');

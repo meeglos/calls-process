@@ -27,4 +27,8 @@ class CallsController extends Controller
     {
         dd('Call details: ' . $id);
     }
+    public function insert()
+    {
+        return view('insert');
+    }
 }
