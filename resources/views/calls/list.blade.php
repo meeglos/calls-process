@@ -2,8 +2,21 @@
 
 @section('content')
 
-    <table class="table table-striped">
-
+    <h3>Hay un total de
+        <span class="label label-info">{{ $calls->total() }}</span>
+        llamadas registradas.
+    </h3>
+    <hr>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Id cliente</th>
+                <th>Duración</th>
+                <th>Comentario</th>
+            </tr>
+        </thead>
+        <tbody>
         @foreach($calls as $call)
 
             <tr>
@@ -14,7 +27,7 @@
             </tr>
 
         @endforeach
-
+        </tbody>
     </table>
-
+    {!!  $calls->render() !!}
 @endsection
