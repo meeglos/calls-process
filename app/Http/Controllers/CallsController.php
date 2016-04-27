@@ -11,7 +11,7 @@ class CallsController extends Controller
 {
     public function latest()
     {
-        $calls = DB::table('calls')->orderBy('created_at', 'DESC')->get();
+        $calls = Call::orderBy('call_date', 'DESC')->paginate(10);
 
         return view('calls/list', compact('calls'));
     }
