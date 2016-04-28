@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Starter</title>
+    <title>Calls App | Manager</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -24,7 +24,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           apply the skin class to the body tag so the changes take effect.
     -->
     <link rel="stylesheet" href="/bower_components/AdminLTE/dist/css/skins/skin-blue.min.css">
-
+    {{--My styles--}}
+    {!! Html::style('/assets/my-css/personal.css') !!}
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,10 +57,10 @@ desired effect
 <div class="wrapper">
 
     <!-- Header -->
-    @include('header')
+    @include('partials.header')
 
     <!-- Sidebar -->
-    @include('sidebar')
+    @include('partials.sidebar')
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -86,10 +87,10 @@ desired effect
     <!-- /.content-wrapper -->
 
     <!-- Footer -->
-    @include('footer')
+    @include('partials.footer')
 
     <!-- Control Sidebar -->
-    @include('rightSidebar')
+    @include('partials.rightSidebar')
 
 </div>
 <!-- ./wrapper -->

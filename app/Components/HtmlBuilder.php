@@ -15,7 +15,7 @@ class HtmlBuilder extends CollectiveHtmlBuilder
 
     public function menu()
     {
-        return view('menu');
+        return view('partials.menu');
     }
 
 }
