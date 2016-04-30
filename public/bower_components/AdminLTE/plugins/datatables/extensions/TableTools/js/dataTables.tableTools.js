@@ -9,7 +9,7 @@
  * @summary     TableTools
  * @description Tools and buttons for DataTables
  * @version     2.2.4
- * @file        dataTables.tableTools.js
+ * @file        dataTables.tableTools.my-js
  * @author      SpryMedia Ltd (www.sprymedia.co.uk)
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2009-2015 SpryMedia Ltd.
@@ -37,7 +37,7 @@ var factory = function( $, DataTable ) {
 "use strict";
 
 
-//include ZeroClipboard.js
+//include ZeroClipboard.my-js
 /* ZeroClipboard 1.0.4
  * Author: Joseph Huckaby
  */
@@ -432,7 +432,7 @@ ZeroClipboard_TableTools.Client.prototype = {
 // For the Flash binding to work, ZeroClipboard_TableTools must be on the global
 // object list
 window.ZeroClipboard_TableTools = ZeroClipboard_TableTools;
-//include TableTools.js
+//include TableTools.my-js
 /* TableTools
  * 2009-2015 SpryMedia Ltd - datatables.net/license
  */

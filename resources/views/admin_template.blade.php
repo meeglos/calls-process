@@ -26,11 +26,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="/bower_components/AdminLTE/dist/css/skins/skin-blue.min.css">
     {{--My styles--}}
     {!! Html::style('/assets/my-css/personal.css') !!}
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+
+    <!-- HTML5 Shim and Respond.my-js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.my-js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.my-js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.my-js"></script>
     <![endif]-->
 </head>
 <!--
@@ -104,9 +106,20 @@ desired effect
 <!-- AdminLTE App -->
 <script src="/bower_components/AdminLTE/dist/js/app.min.js"></script>
 
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/latest/css/bootstrap.css" />
+
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the
      fixed layout. -->
+<!-- This is my js file. Personal.js -->
+{!! Html::script('/assets/my-js/personal.js') !!}
 </body>
 </html>

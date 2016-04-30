@@ -72,13 +72,23 @@
         <!-- ./col -->
     </div><!-- /.row small box widget-->
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-8">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <h3 class="topmargin-10">Hay un total de
+                    <h4 class="topmargin-10">Hay un total de
                     <span class="label label-info">{{ $calls->total() }}</span>
                     llamadas registradas.
-                    </h3>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <input type="text" name="daterange" value="01/01/2015 - 01/31/2015"/>
+                    <input type="datetime-local">
+
                 </div>
             </div>
         </div>

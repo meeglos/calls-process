@@ -1,6 +1,6 @@
 //! moment.js
 //! version : 2.9.0
-//! authors : Tim Wood, Iskren Chernev, Moment.js contributors
+//! authors : Tim Wood, Iskren Chernev, Moment.my-js contributors
 //! license : MIT
 //! momentjs.com
 
@@ -11,7 +11,7 @@
 
     var moment,
         VERSION = '2.9.0',
-        // the global-scope this is NOT the global object in Node.js
+        // the global-scope this is NOT the global object in Node.my-js
         globalScope = (typeof global !== 'undefined' && (typeof window === 'undefined' || window === global.window)) ? global : this,
         oldGlobalMoment,
         round = Math.round,
@@ -39,7 +39,7 @@
         aspNetJsonRegex = /^\/?Date\((\-?\d+)/i,
         aspNetTimeSpanJsonRegex = /(\-)?(?:(\d*)\.)?(\d+)\:(\d+)(?:\:(\d+)\.?(\d{3})?)?/,
 
-        // from http://docs.closure-library.googlecode.com/git/closure_goog_date_date.js.source.html
+        // from http://docs.closure-library.googlecode.com/git/closure_goog_date_date.my-js.source.html
         // somewhat more in line with 4.4.3.2 2004 spec, but allows decimal anywhere
         isoDurationRegex = /^(-)?P(?:(?:([0-9,.]*)Y)?(?:([0-9,.]*)M)?(?:([0-9,.]*)D)?(?:T(?:([0-9,.]*)H)?(?:([0-9,.]*)M)?(?:([0-9,.]*)S)?)?|([0-9,.]*)W)$/,
 
@@ -1895,7 +1895,7 @@
     moment.suppressDeprecationWarnings = false;
 
     moment.createFromInputFallback = deprecate(
-        'moment construction falls back to js Date. This is ' +
+        'moment construction falls back to my-js Date. This is ' +
         'discouraged and will be removed in upcoming major ' +
         'release. Please refer to ' +
         'https://github.com/moment/moment/issues/1407 for more info.',
@@ -2910,7 +2910,7 @@
         ),
 
         toISOString : function () {
-            // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
+            // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.my-js
             var years = Math.abs(this.years()),
                 months = Math.abs(this.months()),
                 days = Math.abs(this.days()),

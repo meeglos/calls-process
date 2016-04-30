@@ -6,7 +6,7 @@
  * @summary     ColVis
  * @description Controls for column visibility in DataTables
  * @version     1.1.2
- * @file        dataTables.colReorder.js
+ * @file        dataTables.colReorder.my-js
  * @author      SpryMedia Ltd (www.sprymedia.co.uk)
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2010-2015 SpryMedia Ltd.

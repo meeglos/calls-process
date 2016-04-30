@@ -29,7 +29,7 @@ var CKBUILDER_CONFIG = {
 	preset: 'standard',
 	ignore: [
 		'.bender',
-		'bender.js',
+		'bender.my-js',
 		'bender-err.log',
 		'bender-out.log',
 		'dev',
@@ -37,7 +37,7 @@ var CKBUILDER_CONFIG = {
 		'.editorconfig',
 		'.gitattributes',
 		'.gitignore',
-		'gruntfile.js',
+		'gruntfile.my-js',
 		'.idea',
 		'.jscsrc',
 		'.jshintignore',

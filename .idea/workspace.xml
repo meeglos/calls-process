@@ -2,22 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b8514c9-1176-469b-863f-09e9f387205a" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\calls\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\calls\.idea\deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\calls\.idea\dictionaries\miguel.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\assets\sass\app.scss" afterPath="$PROJECT_DIR$/public/assets/sass/app.scss" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\views\footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\views\header.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\views\insert.blade.php" afterPath="$PROJECT_DIR$/resources/views/calls/insert.blade.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\views\menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\views\rightSidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/rightSidebar.blade.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\calls\resources\views\sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CallsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CallsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Components/HtmlBuilder.php" afterPath="$PROJECT_DIR$/app/Components/HtmlBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/404.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/500.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/chartjs/Chart.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/chartjs/Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/Gruntfile.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin_template.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin_template.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/forms/advanced.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/forms/advanced.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/dist/js/app.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/dist/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/blank.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datepicker/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datepicker/bootstrap-datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/boxed.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/boxed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/buttons.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/calendar.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/chartjs.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/chartjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/collapsed-sidebar.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/collapsed-sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/mailbox/compose.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/mailbox/compose.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/dist/js/pages/dashboard.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/dist/js/pages/dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/tables/data.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/tables/data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/samples/old/dialog/dialog.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/forms/editors.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/forms/editors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/fastclick/fastclick.min.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/fastclick/fastclick.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/fixed.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/fixed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/flot.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/flot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/fullcalendar/fullcalendar.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/fullcalendar/fullcalendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/general.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/forms/general.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/forms/general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/icons.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/index.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/index2.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/inline.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/inline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/invoice-print.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/invoice-print.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/invoice.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/invoice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ionslider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ionslider/ion.rangeSlider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/jQueryUI/jquery-ui.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/jQueryUI/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/datatables/jquery.dataTables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/flot/jquery.flot.navigate.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/flot/jquery.flot.navigate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/flot/jquery.flot.time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/input-mask/jquery.inputmask.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/input-mask/jquery.inputmask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/calls/list.blade.php" afterPath="$PROJECT_DIR$/resources/views/calls/list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/lockscreen.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/lockscreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/login.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/mailbox/mailbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/modals.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/daterangepicker/moment.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/daterangepicker/moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/daterangepicker/moment.min.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/daterangepicker/moment.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/morris.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/charts/morris.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/bootstrap/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/pace.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/pace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/profile.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/mailbox/read-mail.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/mailbox/read-mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/register.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/examples/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/select2/select2.full.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/select2/select2.full.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/select2/select2.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/select2/select2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/tables/simple.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/tables/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/sliders.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/starter.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/starter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/timeline.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/UI/timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/top-nav.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/layout/top-nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/samples/old/uilanguages.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/samples/old/uilanguages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/widgets.html" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/pages/widgets.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/public/bower_components/AdminLTE/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
     </list>
     <ignored path="calls.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,27 +105,27 @@
           <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="admin_template.blade.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="admin_template.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/admin_template.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.5">
-                  <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.5759036">
+                  <caret line="113" column="34" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="personal.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="personal.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/assets/my-css/personal.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12820514">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
                   <folding />
                 </state>
@@ -74,7 +135,7 @@
           <file leaf-file-name="CallsController.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CallsController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-24.357143">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
                   <folding />
                 </state>
@@ -84,14 +145,9 @@
           <file leaf-file-name="test.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/test.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.2857144">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="3" column="4" selection-start-line="3" selection-start-column="0" selection-end-line="72" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#78#601#0#HTML" expanded="false" />
-                    <element signature="e#633#1201#0#HTML" expanded="false" />
-                    <element signature="e#1233#1800#0#HTML" expanded="false" />
-                    <element signature="e#1832#2403#0#HTML" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,7 +155,7 @@
           <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/partials/sidebar.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -109,7 +165,7 @@
           <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/partials/menu.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9285715">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
                   <folding />
                 </state>
@@ -119,7 +175,7 @@
           <file leaf-file-name="rightSidebar.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/partials/rightSidebar.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -129,7 +185,7 @@
           <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -143,11 +199,20 @@
           <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/calls/list.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5036145">
-                  <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.5831325">
+                  <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="personal.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/assets/my-js/personal.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
                   <folding>
-                    <element signature="e#633#1201#0#HTML" expanded="false" />
-                    <element signature="e#1233#1800#0#HTML" expanded="false" />
+                    <element signature="e#0#43#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -171,6 +236,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -184,9 +250,11 @@
         <option value="$PROJECT_DIR$/resources/views/partials/menu.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CallsController.php" />
         <option value="$PROJECT_DIR$/resources/assets/my-css/personal.css" />
-        <option value="$PROJECT_DIR$/resources/views/admin_template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/calls/list.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/my-css/personal.css" />
+        <option value="$PROJECT_DIR$/public/assets/my-js/main.js" />
+        <option value="$PROJECT_DIR$/resources/views/admin_template.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/my-js/personal.js" />
+        <option value="$PROJECT_DIR$/resources/views/calls/list.blade.php" />
       </list>
     </option>
   </component>
@@ -201,6 +269,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -232,7 +303,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,118 +352,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="SearchEverywhereHistoryKey" value="routes.&#9;FILE&#9;file://C:/wamp/www/calls/app/Http/routes.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -447,27 +417,35 @@
     <frame x="-166" y="-1088" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13802704" sideWeight="0.50449437" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1388226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13802704" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14120923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13762927" sideWeight="0.49550563" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -477,11 +455,186 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/my-css/personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CallsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/test.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="0" selection-end-line="72" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/rightSidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/calls/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/calls/insert.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="119" selection-start-line="37" selection-start-column="119" selection-end-line="37" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/my-css/personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CallsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/test.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="0" selection-end-line="72" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/rightSidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/calls/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/calls/insert.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -521,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.39759037">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,26 +694,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3180723">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2857144">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="0" selection-end-line="72" selection-end-column="40" />
-          <folding>
-            <element signature="e#78#601#0#HTML" expanded="false" />
-            <element signature="e#633#1201#0#HTML" expanded="false" />
-            <element signature="e#1233#1800#0#HTML" expanded="false" />
-            <element signature="e#1832#2403#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partials/menu.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9285715">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
@@ -578,17 +721,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/calls/insert.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CallsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.357143">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding />
         </state>
@@ -598,33 +733,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/my-css/personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin_template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.5">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5759036">
+          <caret line="113" column="34" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/calls/insert.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/my-js/personal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/calls/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5036145">
-          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-          <folding>
-            <element signature="e#633#1201#0#HTML" expanded="false" />
-            <element signature="e#1233#1800#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/my-css/personal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12820514">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.5831325">
+          <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
           <folding />
         </state>
       </provider>

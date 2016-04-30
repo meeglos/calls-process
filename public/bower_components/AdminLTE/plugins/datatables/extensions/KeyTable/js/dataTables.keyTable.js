@@ -6,7 +6,7 @@
  * @summary     KeyTable
  * @description Spreadsheet like keyboard navigation for DataTables
  * @version     1.2.1
- * @file        dataTables.keyTable.js
+ * @file        dataTables.keyTable.my-js
  * @author      SpryMedia Ltd (www.sprymedia.co.uk)
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2009-2014 SpryMedia Ltd.

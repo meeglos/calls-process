@@ -6,7 +6,7 @@
  * @summary     FixedColumns
  * @description Freeze columns in place on a scrolling DataTable
  * @version     3.0.4
- * @file        dataTables.fixedColumns.js
+ * @file        dataTables.fixedColumns.my-js
  * @author      SpryMedia Ltd (www.sprymedia.co.uk)
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2010-2014 SpryMedia Ltd.

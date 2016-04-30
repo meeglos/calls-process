@@ -6,7 +6,7 @@
  * @summary     Responsive
  * @description Responsive tables plug-in for DataTables
  * @version     1.0.6
- * @file        dataTables.responsive.js
+ * @file        dataTables.responsive.my-js
  * @author      SpryMedia Ltd (www.sprymedia.co.uk)
  * @contact     www.sprymedia.co.uk/contact
  * @copyright   Copyright 2014-2015 SpryMedia Ltd.
