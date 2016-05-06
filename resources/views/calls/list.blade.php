@@ -72,23 +72,29 @@
         <!-- ./col -->
     </div><!-- /.row small box widget-->
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-6">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <h4 class="topmargin-10">Hay un total de
-                    <span class="label label-info">{{ $calls->total() }}</span>
-                    llamadas registradas.
-                    </h4>
+                    <div class="form-group">
+                        <label for="my-rangedate">Date range:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-left acive" id="my-rangedate" placeholder="Seleccione fechas">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-6">
             <div class="panel panel-default">
                 <div class="panel-body">
-
-                    <input type="text" name="daterange" value="01/01/2015 - 01/31/2015"/>
-                    <input type="datetime-local">
-
+                    <h3 class="topmargin-10">Hay un total de
+                    <span class="label label-info">{{ $calls->total() }}</span>
+                    llamadas registradas.
+                    </h3>
+                    <h4>Llamadas registradas desde el <b>23/10/2015</b>.</h4>
                 </div>
             </div>
         </div>
