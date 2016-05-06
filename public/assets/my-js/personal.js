@@ -5,8 +5,8 @@ $(document).ready(function () {
     $('#my-rangedate').daterangepicker({
         "ranges": {
             "Today": [
-                "2016-04-30T22:08:06.276Z",
-                "2016-04-30T22:08:06.276Z"
+                "2016-05-30T22:08:06.276Z",
+                "2016-05-30T22:08:06.276Z"
             ],
             "Yesterday": [
                 "2016-04-29T22:08:06.276Z",
@@ -30,8 +30,8 @@ $(document).ready(function () {
             ]
         },
         "linkedCalendars": false,
-        "startDate": "04/25/2016",
-        "endDate": "05/01/2016",
+        "startDate": "05/02/2016",
+        "endDate": "05/09/2016",
         "opens": "center"
     }, function(start, end, label) {
         console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
