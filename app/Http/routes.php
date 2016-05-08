@@ -41,6 +41,11 @@ Route::get('/insert', [
     'uses'  =>  'CallsController@insert'
 ]);
 
+Route::post('/store', [
+    'as'    =>  'calls.store',
+    'uses'  =>  'CallsController@store'
+]);
+
 
 
 

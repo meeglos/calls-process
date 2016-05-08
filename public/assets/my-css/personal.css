@@ -5,3 +5,12 @@
 .borderbottom-orng {
     border-bottom: 1px solid #cc4400 !important;
 }
+
+.fright {
+    text-align: right;
+    padding-right: 0;
+}
+
+.tmargin10 {
+    margin-top: 10px;
+}
