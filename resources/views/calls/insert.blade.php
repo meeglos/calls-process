@@ -3,7 +3,7 @@
 @section('content')
     <div class="panel panel-default">
         <div class="panel-body">
-            Phone log data. The format of the **.txt file must be of 4 columns in the following order:[date-time] [client-id] [duration] [comments]
+            Phone log data. The format of the **.txt file must be of 4 columns in the following order:[date-time] [client-id] [duration] [user-id] [comments]
         </div>
     </div>
     <div class="row">
