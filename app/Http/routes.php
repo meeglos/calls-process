@@ -59,3 +59,9 @@ Route::post('/store', [
 //});
 //
 //Route::get('/test', 'TestController@index');
+
+
+//Route::get('user', [
+//    'as'    =>  'user.index',
+//    'uses'  =>  'UserController@index'
+//]);

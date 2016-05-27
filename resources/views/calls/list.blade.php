@@ -6,7 +6,7 @@
             <!-- small box -->
             <div class="small-box bg-aqua">
                 <div class="inner">
-                    <h3>37</h3>
+                    <h3>{{ $calls->total() }}</h3>
 
                     <p>Total calls</p>
                 </div>
@@ -23,7 +23,7 @@
             <!-- small box -->
             <div class="small-box bg-yellow">
                 <div class="inner">
-                    <h3>378<sup style="font-size: 20px">secs</sup></h3>
+                    <h3>{{ $myAvg }}<sup style="font-size: 20px">secs</sup></h3>
 
                     <p>Average time</p>
                 </div>
@@ -40,7 +40,7 @@
             <!-- small box -->
             <div class="small-box bg-red">
                 <div class="inner">
-                    <h3>678<sup style="font-size: 20px">secs</sup></h3>
+                    <h3>{{ $calls->max('call_lapse') }}<sup style="font-size: 20px">secs</sup></h3>
 
                     <p>Longest call</p>
                 </div>
@@ -57,7 +57,7 @@
             <!-- small box -->
             <div class="small-box bg-green">
                 <div class="inner">
-                    <h3>78<inf style="font-size: 20px">secs</inf></h3>
+                    <h3>{{ $calls->min('call_lapse') }}<inf style="font-size: 20px">secs</inf></h3>
 
                     <p>Shortest call</p>
                 </div>
@@ -81,7 +81,7 @@
                             <div class="input-group-addon">
                                 <i class="fa fa-calendar"></i>
                             </div>
-                            <input type="text" class="form-control pull-left acive" id="my-rangedate" placeholder="Seleccione fechas">
+                            <input type="text" class="form-control pull-left active" id="my-rangedate" placeholder="Seleccione fechas">
                         </div>
                     </div>
                 </div>
@@ -115,16 +115,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                    @foreach($calls as $call)
+                        @foreach($calls as $call)
 
-                        <tr>
-                            <td>{{ $call->call_date }}</td>
-                            <td>{{ $call->client_id }}</td>
-                            <td>{{ $call->call_lapse }}</td>
-                            <td>{{ $call->comment }}</td>
-                        </tr>
+                            <tr>
+                                <td>{{ $call->call_date }}</td>
+                                <td>{{ $call->client_id }}</td>
+                                <td>{{ $call->call_lapse }}</td>
+                                <td>{{ $call->comment }}</td>
+                            </tr>
 
-                    @endforeach
+                        @endforeach
                     </tbody>
                 </table>
             </div>

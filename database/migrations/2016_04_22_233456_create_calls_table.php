@@ -15,9 +15,9 @@ class CreateCallsTable extends Migration
         Schema::create('calls', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->string('call_date');
+            $table->dateTime('call_date');
             $table->string('client_id');
-            $table->string('call_lapse');
+            $table->integer('call_lapse');
             $table->string('comment');
 
             $table->integer('user_id')->unsigned();
