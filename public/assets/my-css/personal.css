@@ -14,3 +14,7 @@
 .tmargin10 {
     margin-top: 10px;
 }
+
+.table td,th {
+    text-align: center;
+}

@@ -6,7 +6,7 @@
             <!-- small box -->
             <div class="small-box bg-aqua">
                 <div class="inner">
-                    <h3>{{ $calls->total() }}</h3>
+                    <h3>{{ $myAvg1['tot'] }}</h3>
 
                     <p>Total calls</p>
                 </div>
@@ -23,7 +23,7 @@
             <!-- small box -->
             <div class="small-box bg-yellow">
                 <div class="inner">
-                    <h3>{{ $myAvg }}<sup style="font-size: 20px">secs</sup></h3>
+                    <h3>{{ $myAvg1['avg'] }} <sup style="font-size: 20px">secs</sup></h3>
 
                     <p>Average time</p>
                 </div>
@@ -40,7 +40,7 @@
             <!-- small box -->
             <div class="small-box bg-red">
                 <div class="inner">
-                    <h3>{{ $calls->max('call_lapse') }}<sup style="font-size: 20px">secs</sup></h3>
+                    <h3>{{ $myAvg1['max'] }}<sup style="font-size: 20px">secs</sup></h3>
 
                     <p>Longest call</p>
                 </div>
@@ -57,7 +57,7 @@
             <!-- small box -->
             <div class="small-box bg-green">
                 <div class="inner">
-                    <h3>{{ $calls->min('call_lapse') }}<inf style="font-size: 20px">secs</inf></h3>
+                    <h3>{{ $myAvg1['min'] }}<inf style="font-size: 20px">secs</inf></h3>
 
                     <p>Shortest call</p>
                 </div>
@@ -91,7 +91,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <h3 class="topmargin-10">Hay un total de
-                    <span class="label label-info">{{ $calls->total() }}</span>
+                    <span class="label label-info">{{ $calls->count() }}</span>
                     llamadas registradas.
                     </h3>
                     <h4>Llamadas registradas desde el <b>23/10/2015</b>.</h4>
@@ -109,19 +109,21 @@
                     <thead>
                         <tr>
                             <th class="borderbottom-orng">Fecha</th>
-                            <th class="borderbottom-orng">Id cliente</th>
-                            <th class="borderbottom-orng">Duracion</th>
-                            <th class="borderbottom-orng">Comentario</th>
+                            <th class="borderbottom-orng">Total<br>calls</th>
+                            <th class="borderbottom-orng">Shortest<br>call</th>
+                            <th class="borderbottom-orng">Longest<br>call</th>
+                            <th class="borderbottom-orng">Average<br>call time</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach($calls as $call)
 
                             <tr>
-                                <td>{{ $call->call_date }}</td>
-                                <td>{{ $call->client_id }}</td>
-                                <td>{{ $call->call_lapse }}</td>
-                                <td>{{ $call->comment }}</td>
+                                <td>{{ $call->mes }}</td>
+                                <td>{{ $call->total }}</td>
+                                <td>{{ $call->min }}</td>
+                                <td>{{ $call->max }}</td>
+                                <td>{{ $call->med }}</td>
                             </tr>
 
                         @endforeach

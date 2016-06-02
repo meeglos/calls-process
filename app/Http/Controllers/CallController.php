@@ -8,15 +8,31 @@ use Calls\Http\Requests;
 use DB;
 use Illuminate\Support\Facades\Redirect;
 use Carbon\Carbon;
+use Illuminate\Support\Collection as Collection;
 class CallsController extends Controller
 {
     public function latest()
     {
-        $calls = Call::orderBy('call_date', 'DESC')->paginate(20);
-        $myAvg = Call::select(DB::raw('avg(call_lapse) AS average'))->first();
-        $myAvg = $this->avgCast($myAvg);
+        $calls = Call::select(DB::raw('MONTHNAME(call_date) as mes,
+                                        count(*) as total,
+                                        min(call_lapse) as min,
+                                        max(call_lapse) as max,
+                                        round(avg(call_lapse)) as med'))
+                            ->groupBy(DB::raw('MONTHNAME(call_date)'))
+                            ->orderBy('call_date', 'DESC')
+                            ->paginate(20);
 
-        return view('calls/list', compact('calls', 'myAvg'));
+        $myAvg = Call::select(DB::raw('ROUND(AVG(call_lapse)) AS avg,
+                                        MAX(call_lapse) AS max,
+                                        MIN(call_lapse) as min,
+                                        COUNT(*) as tot'))
+                                ->first();
+
+//        dd($myAvg);
+        $myAvg1 = $this->avgCast($myAvg);
+//        dd($myAvg1);
+
+        return view('calls/list', compact('calls', 'myAvg1'));
     }
 
     public function shortest()
@@ -87,10 +103,28 @@ class CallsController extends Controller
 
     private function avgCast($value)
     {
-        $value = round($value['average']);
-        $myMin = floor($value / 60);
-        $mySec = $value % 60;
+        $max = $value->max;
+        $min = $value->min;
+        $avg = (int)$value->avg;
+        $tot = $value->tot;
 
-        return ($myMin > 9 ? $myMin : '0' . $myMin) . "'" . ($mySec > 9 ? $mySec : '0' . $mySec);
+        $myValues = array($max, $min, $avg, $tot);
+        $myKeys = array('max', 'min', 'avg', 'tot');
+
+        $values = array_combine($myKeys, array_map(array($this, "myFormat"), $myValues));
+        $myColl = Collection::make($values);
+
+//        dd($myColl);
+        return $values;
+    }
+
+    private function myFormat($val)
+    {
+        $myMin = floor($val / 60);
+        $mySec = $val % 60;
+
+        $value = ($myMin > 9 ? $myMin : '0' . $myMin) . "'" . ($mySec > 9 ? $mySec : '0' . $mySec);
+
+        return $value;
     }
 }
