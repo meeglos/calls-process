@@ -1,0 +1,33 @@
+* [1;31mf0df6ac[m -[33m (HEAD -> master)[m Header info complete [32m(4 minutes ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m95c001c[m -[33m (tag: v2.8)[m Styled top bar [32m(6 days ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m0cb1a98[m -[33m (tag: v2.7)[m Insert message: text structure [32m(3 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m4a705b7[m -[33m (tag: v2.6)[m Inserting arrays done [32m(3 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m21e65b7[m -[33m (tag: v2.5)[m Inserting arrays [32m(4 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m74075d6[m -[33m (tag: v2.4, datepicker)[m Datepicker finished [32m(4 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m0e44e51[m -[33m (tag: v2.2)[m Datepicker+personalcss+js [32m(4 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m8cb4487[m -[33m (tag: v2.1)[m The datepicker [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m4431f9a[m -[33m (origin/partials, partials)[m First partials for calls [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+*   [1;31m4f67402[m -[33m[m Merge branch 'master' of github.com:meeglos/calls-process [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+[32m|[m[33m\[m  
+[32m|[m * [1;31m43553ba[m -[33m[m Call list [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [33m|[m [1;31m48c4e16[m -[33m[m Call list [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+[33m|[m[33m/[m  
+* [1;31m2526a2d[m -[33m[m Call List preview v1 [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+*   [1;31md94c916[m -[33m[m Merge branch 'master' of github.com:meeglos/calls-process [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+[34m|[m[35m\[m  
+[34m|[m * [1;31m76b6d57[m -[33m[m Update .gitattributes [32m(5 weeks ago) [1;34m<meeglos>[m
+* [35m|[m [1;31m3b0015e[m -[33m (origin/backend, backend)[m Menu with route [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [35m|[m [1;31m7714431[m -[33m[m Partials and Controllers II [32m(5 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [35m|[m [1;31m58160e0[m -[33m[m Partials and Controllers [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+[35m|[m[35m/[m  
+* [1;31md0837af[m -[33m (tag: 6)[m Seeders, Migrations and Models. [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m384bf3e[m -[33m (tag: 5)[m Call model and migation [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+*   [1;31m9b12df0[m -[33m (tag: 4)[m Test Controller..again [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+[36m|[m[1;31m\[m  
+[36m|[m * [1;31m573ed5d[m -[33m (tag: 3)[m Modified static template. [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m|[m [1;31m3754e8c[m -[33m[m added Test Controller [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m|[m [1;31m2246c0a[m -[33m[m Modified static template. [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m|[m [1;31m9032ef4[m -[33m[m Modified static template. [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+[1;31m|[m[1;31m/[m  
+* [1;31mc364d3b[m -[33m (tag: 2)[m AdminLTE template installed [32m(6 weeks ago) [1;34m<Miguel Rodriguez>[m
+* [1;31m1c6b51e[m -[33m (tag: 1)[m Initial commit [32m(7 weeks ago) [1;34m<Miguel Rodriguez>[m

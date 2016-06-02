@@ -16,7 +16,7 @@ class Call extends Model
         'user_id'
     ];
 
-    protected $dates = ['call_date'];
+    protected $dates = ['call_date', 'created_at', 'updated_at'];
 
     public function present()
     {

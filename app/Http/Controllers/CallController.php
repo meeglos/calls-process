@@ -28,9 +28,7 @@ class CallsController extends Controller
                                         COUNT(*) as tot'))
                                 ->first();
 
-//        dd($myAvg);
         $myAvg1 = $this->avgCast($myAvg);
-//        dd($myAvg1);
 
         return view('calls/list', compact('calls', 'myAvg1'));
     }
@@ -57,14 +55,15 @@ class CallsController extends Controller
     public function store(Request $request)
     {
         if($_POST) {
+            $now = Carbon::now()->toDateTimeString();
             $mylog = $_POST['details'];
             $input = preg_replace("/((\r?\n)|(\r\n?))/", '**', $mylog);
             $pieces = explode('**', $input);
-            $fields = array('call_date', 'client_id', 'call_lapse', 'user_id', 'comment');
+            $fields = array('call_date', 'client_id', 'call_lapse', 'user_id', 'comment', 'created_at', 'updated_at');
 
             foreach ($pieces as $part) {
 
-                $a = $this->mycast(explode(' ', $part));
+                $a = $this->mycast(explode(' ', trim($part)));
                 $b = array(2, 1, 1, 1);
                 $i = 0;
                 unset($output);
@@ -75,17 +74,28 @@ class CallsController extends Controller
                 }
 
                 $output[] = rtrim(array_reduce(array_slice($a, array_sum($b), count($a)), array($this, "myconcat")));
+                $output[0] = $this->myDateFormat($output[0]);
+                $output[4] = trim($output[4]);
+                array_push($output, $now, $now);
 
                 $result[] = array_combine($fields, $output);
-
             }
 
-            DB::table('calls')->insert($result);
+            Call::insert($result);
 
             return Redirect::route('calls.latest');
         }
     }
 
+    public function myDateFormat($varDate)
+    {
+        $myDate = explode(' ', $varDate);
+        $myTime = $myDate[0] . ':' . rand(10,59);
+        $myDay =  explode('/', $myDate[1]);
+        $myDay = $myDay[2] . '-' . $myDay[1] . '-' . $myDay[0];
+
+        return $myDate = $myDay . ' ' . $myTime;
+    }
     public function myconcat($carry, $item)
     {
         $carry .= $item . ' ';
@@ -108,10 +118,11 @@ class CallsController extends Controller
         $avg = (int)$value->avg;
         $tot = $value->tot;
 
-        $myValues = array($max, $min, $avg, $tot);
-        $myKeys = array('max', 'min', 'avg', 'tot');
+        $myValues = array($max, $min, $avg);
+        $myKeys = array('max', 'min', 'avg');
 
         $values = array_combine($myKeys, array_map(array($this, "myFormat"), $myValues));
+        $values['tot'] = $tot;
         $myColl = Collection::make($values);
 
 //        dd($myColl);

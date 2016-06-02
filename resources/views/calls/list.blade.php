@@ -91,7 +91,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <h3 class="topmargin-10">Hay un total de
-                    <span class="label label-info">{{ $calls->count() }}</span>
+                    <span class="label label-info">{{ $myAvg1['tot'] }}</span>
                     llamadas registradas.
                     </h3>
                     <h4>Llamadas registradas desde el <b>23/10/2015</b>.</h4>
@@ -116,6 +116,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                    @if ($calls)
                         @foreach($calls as $call)
 
                             <tr>
@@ -127,6 +128,9 @@
                             </tr>
 
                         @endforeach
+                    @else
+                        <tr><td colspan="5"><h4>{{ "Sin datos" }}</h4></td></tr>
+                    @endif
                     </tbody>
                 </table>
             </div>
