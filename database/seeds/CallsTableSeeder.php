@@ -12,7 +12,7 @@ class CallsTableSeeder extends BaseSeeder
     public function getDummyData(\Faker\Generator $faker, array $customValues = array())
     {
         return [
-            'call_date' => $faker->dateTimeBetween($startDate = '-2 months', $endDate = 'now'),
+            'call_date' => $faker->dateTimeBetween($startDate = '-4 months', $endDate = 'now'),
             'client_id' => $faker->numberBetween($min = 10000000, $max = 99999000),
             'call_lapse'=> $faker->numberBetween($min = 65, $max = 700),
             'comment'   => $faker->sentence(),
@@ -22,6 +22,6 @@ class CallsTableSeeder extends BaseSeeder
 
     public function run()
     {
-        $this->createMultiple(13);
+        $this->createMultiple(1800);
     }
 }
