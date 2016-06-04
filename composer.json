@@ -10,7 +10,8 @@
         "fzaninotto/faker": "^1.5",
         "laravelcollective/html": "5.2.*",
         "barryvdh/laravel-ide-helper": "^2.1",
-        "nesbot/carbon": "^1.21"
+        "nesbot/carbon": "^1.21",
+        "jenssegers/date": "^3.2"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",

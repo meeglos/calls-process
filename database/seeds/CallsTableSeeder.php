@@ -22,6 +22,6 @@ class CallsTableSeeder extends BaseSeeder
 
     public function run()
     {
-        $this->createMultiple(0);
+        $this->createMultiple(546);
     }
 }

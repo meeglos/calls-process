@@ -22,6 +22,8 @@ class CallsController extends Controller
                             ->orderBy('call_date', 'DESC')
                             ->paginate(20);
 
+        $callDetails = $this->detailCast($calls);
+
         $myAvg = Call::select(DB::raw('ROUND(AVG(call_lapse)) AS avg,
                                         MAX(call_lapse) AS max,
                                         MIN(call_lapse) as min,
@@ -30,19 +32,16 @@ class CallsController extends Controller
 
         $myAvg1 = $this->avgCast($myAvg);
 
-        return view('calls/list', compact('calls', 'myAvg1'));
+        return view('calls/list', compact('callDetails', 'myAvg1'));
     }
-
     public function shortest()
     {
         dd('llamadas de menor duracion');
     }
-
     public function longest()
     {
         dd('llamadas de mayor duracion');
     }
-
     public function details($id)
     {
         dd('Call details: ' . $id);
@@ -51,7 +50,6 @@ class CallsController extends Controller
     {
         return view('calls.insert');
     }
-
     public function store(Request $request)
     {
         if($_POST) {
@@ -86,7 +84,6 @@ class CallsController extends Controller
             return Redirect::route('calls.latest');
         }
     }
-
     public function myDateFormat($varDate)
     {
         $myDate = explode(' ', $varDate);
@@ -101,7 +98,6 @@ class CallsController extends Controller
         $carry .= $item . ' ';
         return $carry;
     }
-
     private function mycast($value)
     {
         $test1 = $value[3];
@@ -110,7 +106,6 @@ class CallsController extends Controller
 
         return $value;
     }
-
     private function avgCast($value)
     {
         $max = $value->max;
@@ -123,12 +118,11 @@ class CallsController extends Controller
 
         $values = array_combine($myKeys, array_map(array($this, "myFormat"), $myValues));
         $values['tot'] = $tot;
-        $myColl = Collection::make($values);
+//        $myColl = Collection::make($values);
 
 //        dd($myColl);
         return $values;
     }
-
     private function myFormat($val)
     {
         $myMin = floor($val / 60);
@@ -138,4 +132,33 @@ class CallsController extends Controller
 
         return $value;
     }
+    private function detailCast($calls)
+    {
+        $finalResult = array();
+        $myKeys = array('mes', 'min', 'max', 'med', 'total');
+        foreach ($calls as $call)
+        {
+            $setResult = array($this->myMonth($call->mes),
+                                $this->myFormat($call->min),
+                                $this->myFormat($call->max),
+                                $this->myFormat((int)$call->med),
+                                $call->total
+                            );
+            array_push($finalResult, array_combine($myKeys, $setResult));
+        }
+
+        return $finalResult;
+    }
+    public function myMonth($month)
+    {
+        $enMonthName = array('January', 'February', 'March', 'April', 'May', 'June', 'July',
+            'August', 'September', 'October', 'November', 'December');
+        $esMonthName = array('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio',
+            'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+
+        $esMonth = str_ireplace($enMonthName, $esMonthName, $month);
+
+        return $esMonth;
+    }
 }
+

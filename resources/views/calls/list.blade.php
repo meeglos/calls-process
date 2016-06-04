@@ -116,15 +116,15 @@
                         </tr>
                     </thead>
                     <tbody>
-                    @if ($calls)
-                        @foreach($calls as $call)
+                    @if ($callDetails)
+                        @foreach($callDetails as $call)
 
                             <tr>
-                                <td>{{ $call->mes }}</td>
-                                <td>{{ $call->total }}</td>
-                                <td>{{ $call->min }}</td>
-                                <td>{{ $call->max }}</td>
-                                <td>{{ $call->med }}</td>
+                                <td>{{ $call['mes'] }}</td>
+                                <td>{{ $call['total'] }}</td>
+                                <td>{{ $call['min'] }}</td>
+                                <td>{{ $call['max'] }}</td>
+                                <td>{{ $call['med'] }}</td>
                             </tr>
 
                         @endforeach
@@ -135,6 +135,6 @@
                 </table>
             </div>
         </div>
-    {!!  $calls->render() !!}
+    {{--{!!  $callDetails->render() !!}--}}
 
 @endsection
