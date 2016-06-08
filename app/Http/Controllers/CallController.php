@@ -11,7 +11,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Collection as Collection;
 class CallsController extends Controller
 {
-    public function latest()
+    public function latestCalls()
     {
         $calls = Call::select(DB::raw('MONTHNAME(call_date) as mes,
                                         count(*) as total,
@@ -55,8 +55,8 @@ class CallsController extends Controller
         if($_POST) {
             $now = Carbon::now()->toDateTimeString();
             $mylog = $_POST['details'];
-            $input = preg_replace("/((\r?\n)|(\r\n?))/", '**', $mylog);
-            $pieces = explode('**', $input);
+            $input = preg_replace("/((\r?\n)|(\r\n?))/", '%%', $mylog);
+            $pieces = explode('%%', $input);
             $fields = array('call_date', 'client_id', 'call_lapse', 'user_id', 'comment', 'created_at', 'updated_at');
 
             foreach ($pieces as $part) {

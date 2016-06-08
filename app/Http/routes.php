@@ -18,7 +18,7 @@ Route::get('/', [
 
 Route::get('/latest', [
     'as'    =>  'calls.latest',
-    'uses'  =>  'CallsController@latest'
+    'uses'  =>  'CallsController@latestCalls'
 ]);
 
 Route::get('/shortest', [
@@ -65,3 +65,7 @@ Route::post('/store', [
 //    'as'    =>  'user.index',
 //    'uses'  =>  'UserController@index'
 //]);
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
